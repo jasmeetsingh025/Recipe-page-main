@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Recipe page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <div class="header">
+      <div class="image">
+        <img src="./assets/images/image-omelette.jpeg" alt="food image">
+      </div>
+      <div class="text head-text">
+        Simple Omelette Recipe
+      </div>
+      <p class="text para">
+        An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked
+        to perfection, optionally filled with your choice of cheese, vegetables, or meats.
+      </p>
+    </div>
+    <div class="prep">
+      <div class="text prep-text">
+        Preparation time
+      </div>
+      <ul>
+        <li class="text">
+          <p class="para">
+            <strong>
+              Total
+            </strong>: Approximately 10 minutes
+          </p>
+        </li>
+        <li class="text">
+          <p class="para">
+            <strong>Preparation</strong>: 5 minutes
+          </p>
+        </li>
+        <li class="text">
+          <p class="para">
+            <strong>Cooking</strong>: 5 minutes
+          </p>
+        </li>
+      </ul>
+    </div>
+    <div class="ingrs">
+      <div class="text style-text">
+        Ingredients
+      </div>
+      <ul>
+        <li class="text">
+          <p class="para">
+            2-3 large eggs
+          </p>
+        </li>
+        <li class="text">
+          <p class="para">
+            Salt, to taste
+          </p>
+        </li>
+        <li class="text">
+          <p class="para">
+            Pepper, to taste
+          </p>
+        </li>
+        <li class="text">
+          <p class="para">
+            1 tablespoon of butter or oil
+          </p>
+        </li>
+        <li class="text">
+          <p class="para">
+            Optional fillings: cheese, diced vegetables, cooked meats, herbs
+          </p>
+        </li>
+      </ul>
+    </div>
+    <hr class="hr">
+    <div class="insts">
+      <div class="text style-text">
+        Instructions
+      </div>
+      <ol>
+        <li class="text">
+          <p class="para">
+            Beat the eggs: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed.
+            You can add a tablespoon of water or milk for a fluffier texture.
+          </p>
+        </li>
+        <li class="text">
+          <p class="para">
+            Heat the pan: Place a non-stick frying pan over medium heat and add butter or oil.
+          </p>
+        </li>
+        <li class="text">
+          <p class="para">
+            Cook the omelette: Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure
+            the eggs evenly coat the surface.
+          </p>
+        </li>
+        <li class="text">
+          <p class="para">
+            Add fillings (optional): When the eggs begin to set at the edges but are still slightly runny in the
+            middle, sprinkle your chosen fillings over one half of the omelette.
+          </p>
+        </li>
+        <li class="text">
+          <p class="para">
+            Fold and serve: As the omelette continues to cook, carefully lift one edge and fold it over the
+            fillings. Let it cook for another minute, then slide it onto a plate.
+          </p>
+        </li>
+        <li class="text">
+          <p class="para">
+            Enjoy: Serve hot, with additional salt and pepper if needed.
+          </p>
+        </li>
+      </ol>
+    </div>
+    <hr class="hr">
+    <div class="nutrs">
+      <div class="text style-text">
+        Nutrition
+      </div>
+      <p class="para text">
+        The table below shows nutritional values per serving without the additioinal fillings.
+      </p>
+      <!-- <div class="data-box">
+        <div class="rows">
+          <div class="info">
+            <span class="info para text">Calories</span>
+          </div>
+          <div class="value">
+            <span class="value">277kcal</span>
+          </div>
+        </div>
+        <hr class="hr">
+        <div class="rows">
+          <span class="info para text">Carbs</span>
+          <span class="value">0g</span>
+        </div>
+        <hr class="hr">
+        <div class="rows">
+          <span class="info para text">Protein</span>
+          <span class="value">20g</span>
+        </div>
+      </div> -->
+      <div class="data-box">
+        <table>
+          <tr>
+            <th class="info para text">Calories</th>
+            <td class="value">277kcal</td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <hr>
+            </td>
+          </tr>
+          <tr>
+            <th class="info para text">Carbs</th>
+            <td class="value">0g</td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <hr>
+            </td>
+          </tr>
+          <tr>
+            <th class="info para text">Protein</th>
+            <td class="value">20g</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by <a rel="noopener" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend
+        Mentor</a>.
+      Coded by <a href="https://github.com/jasmeetsingh025?tab=repositories">Jasmeet Singh</a>.
+    </div>
+  </div>
+</body>
+
+</html>

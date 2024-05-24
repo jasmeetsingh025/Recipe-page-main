@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+*::before,
+*::after,
+* {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bottom-margin: 1rem;
+  --border-radius: 1rem;
+}
+
+.wrapper {
+  margin: 2em 2.5em;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+img {
+  width: 100%;
+  max-width: 1400px;
+  border-radius: var(--border-radius);
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.prep {
+  padding: 2rem;
+  margin-block: 2.5rem;
+  border-radius: var(--border-radius);
+  background-color: hsl(330, 100%, 98%);
+}
+
+.prep > ul > li {
+  margin-block: 0.5rem;
+}
+
+.prep > ul {
+  margin-inline-start: 2rem;
+  color: hsl(332, 51%, 32%);
+}
+
+.ingrs > ul {
+  margin-inline: 2rem;
+  color: hsl(14, 45%, 36%);
+}
+
+.ingrs > ul > li {
+  margin-block: 0.5rem;
+}
+
+.hr {
+  margin-top: 2rem;
+  margin-bottom: 1.4rem;
+}
+
+.insts > ol {
+  margin-inline: 2rem;
+  color: hsl(14, 45%, 36%);
+}
+/* 
+.data-box {
+  margin-block: 1.5rem;
+}
+
+.rows {
+  display: flex;
+  gap: 30rem;
+  /* margin-left: -15rem; */
+
+/* .rows > .value {
+  font-size: 1rem;
+  font-family: "Outfit", serif;
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+} */
+.data-box {
+  margin-block: 1.5rem;
+  width: 100%;
+}
+
+.data-box table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.data-box th,
+.data-box td {
+  text-align: left;
+  padding: 0.5rem 0;
+}
+
+.data-box th {
+  font-weight: bold;
+}
+
+.data-box .value {
+  font-size: 1rem;
+  font-family: "Outfit", serif;
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+
+.data-box > table > tbody > tr > td > hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 0.5rem 0;
+}
+
+/* Text */
+.para {
+  margin-inline-start: 0.8rem;
+  color: hsl(30, 10%, 34%);
+}
+
+.text {
+  font-family: "Outfit", serif;
+  font-size: 1.1rem;
+  letter-spacing: 0.03rem;
+}
+
+.style-text {
+  font-family: "Young Serif", serif;
+  font-size: 3rem;
+  color: hsl(14, 45%, 36%);
+  margin-bottom: var(--bottom-margin);
+}
+
+.prep-text {
+  color: hsl(332, 51%, 32%);
+  font-size: 2rem;
+}
+
+.head-text {
+  font-size: 4.5rem;
+  font-weight: 400;
+  color: hsl(24, 5%, 18%);
+  margin-bottom: var(--bottom-margin);
+  font-family: "Young Serif", serif;
+}
